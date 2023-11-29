@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(93, 155, 230);
+    padding: 10px; /* Adding padding for better spacing */
+}
+.header-logo {
+    width: 20%;
+    margin-top: 0.5%;
+    margin-bottom: -0.45%;
+    min-width: 100px;
+}
+.recruitment-partner {
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    margin-top: -0.1%;
+    margin-left: 2.65%;
+}
+.logo-part {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5%;
+    margin-top: 0.4%;
+}
+.right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: end;
+    column-gap: 20%;
+    margin-right: 6%;
+
+}
+.right-section .pages {
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.right-section .pages:active {
+    color: rgba(42, 113, 255, 0.912);
+}
+#contact-us {
+    margin-left: -8%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .recruitment-partner {
+        display: none;
+    }
+    .header-logo {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-logo {
+        width: 33%;
+}
+    .recruitment-partner {
+        display: none;
+    }
+    .right-section {
+        margin-right: 1%;
+    }
+} 
+
+@media only screen and (max-width: 800px) {
+    .header-logo {
+        width: 59%;
+    }
+    .right-section {
+        margin-left:8%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .right-section {
+        margin-right: 2%;
+        margin-left: 2%;
+        column-gap: 10%;;
+    }
+}
+@media only screen and (max-width:600px) {
+    .right-section a {
+        font-size: 90%;
+    }
+    .right-section {
+        margin-left: 4%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .right-section a {
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .right-section a {
+        font-size: 90%;
+    }
+}
+@media  only screen and (max-width: 400px) {
+    .right-section {
+        font-size: 86%;
+        margin-left: 7%;
+    }
+    .core-questions {
+        margin-bottom: 6%;
+    }
+}

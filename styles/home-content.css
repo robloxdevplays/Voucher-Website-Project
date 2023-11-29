@@ -1,0 +1,47 @@
+.home-content p {
+    margin-bottom: 0.5%;
+    margin-top: 0.6%;
+}
+.home-content h2 {
+    margin: 0;
+    margin-bottom: -0.5%;
+}
+.home-content {
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 1fr;
+    max-width: 1300px;
+}
+.core-questions {
+    margin-bottom: 1.5%;
+}
+.core-questions:hover {
+    background-color: rgba(196, 194, 194, 0.726);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 0%;
+    max-width: 97%;
+    transition: 0.15s;
+}
+
+@media only screen and (max-width: 1300px) {
+    .home-content p {
+        width: 95%;
+}
+}
+@media only screen and (max-width: 650px){
+    .home-content {
+        margin-top: 2%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .home-content {
+        margin-left: 2%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .core-questions {
+        margin-bottom: 2%;
+    }
+}
