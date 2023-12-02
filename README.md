@@ -3,6 +3,10 @@ This is the first project I did on my own with a bit of mentorship and guidance 
 
 # Things I could have done better 
 
--> Used flexboxes instead of margin for the header
--> Reduced the use of margin
--> Reduced the lines of code by using advance properties
+1. Used flexboxes instead of margin for the header
+2. Reduced the use of margin
+3. Reduced the lines of code by using advance properties
+
+# Things I have learned through this project
+
+1. Mobile Responsiveness
